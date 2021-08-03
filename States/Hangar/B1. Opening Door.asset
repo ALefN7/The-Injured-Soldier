@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e61ac43f2aa506b42b27b09dfa2b4d9a, type: 3}
+  m_Name: B1. Opening Door
+  m_EditorClassIdentifier: 
+  storyText: 'You wait it out. After, perhaps, 20 minutes you hear feet shuffling.
+    Keys jangle. The door starts to unlock.
+
+
+    What to do?
+
+    1. Wait a little
+    longer, it seemed to work last time.
+
+    2. Rush the door and thrust a handful
+    of knuckles through the chestplate of whoever enters.'
+  nextStates:
+  - {fileID: 11400000, guid: 68c848e9dcc0a2a4ebc6ad568ab4dad1, type: 2}
+  - {fileID: 11400000, guid: 8f6b34a0c9a055e4d8d429cb39d64efc, type: 2}
